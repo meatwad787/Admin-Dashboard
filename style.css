@@ -14,7 +14,15 @@
 }
 
 nav {
+    grid-column: 1;
     grid-row: 1/ 3;
+}
+
+.dashboard {
+    padding-bottom: 20%;
+} 
+.communities {
+    padding-bottom: 20%;
 }
 
 
