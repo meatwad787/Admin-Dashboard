@@ -1,5 +1,5 @@
 .wrapper {
-   
+   font-size: 1.5em;
 }
 
 .main-grid {
@@ -32,6 +32,22 @@ nav {
     grid-template-rows: repeat(2, 1fr);
 }
 
+
+.btn {
+    height: 2.5rem;
+    width: 5.5rem;
+    margin: 3.3%;
+    border-radius: 25% 25% 25% 25%;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 75%;
+}
+
+
+
+
+
+
 .main-content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -60,5 +76,13 @@ nav {
 }
 .money {
     grid-column: 2;
+    grid-row: 3;
+} 
+.seven {
+    grid-column: 3;
+    grid-row: 1;
+}
+.eight {
+    grid-column: 3;
     grid-row: 3;
 }
