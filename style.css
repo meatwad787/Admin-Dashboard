@@ -35,6 +35,18 @@ nav {
     grid-template-rows: repeat(2, 1fr);
     background-color: white;
 }
+.input {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+input {
+    width: 65%;
+    height: 18%;
+    border-radius: 1rem;
+    border: none;
+    background-color: rgb(172, 172, 172);
+}
 
 .header-child {
     align-self: end;
@@ -49,6 +61,7 @@ nav {
     margin-right: 1.1rem;
     margin-bottom: 0.5rem;
     border-radius: 10% 10% 10% 10%;
+    border: none;
     background-color: cornflowerblue;
     color: white;
     font-size: 65%;
@@ -69,6 +82,7 @@ nav {
 }
 
 .card {
+    padding: 10px;
     border-radius: 10% 12% 15% 15%;
 }
 
