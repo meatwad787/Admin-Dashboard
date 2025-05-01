@@ -30,6 +30,7 @@ nav {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
+    background-color: #f0f0f0;
 }
 
 .header-child {
@@ -41,11 +42,12 @@ nav {
 .btn {
     height: 2.5em;
     width: 4.5rem;
-    /* margin: 0.1%; */
+    margin-left: 1.1rem;
+    margin-right: 1.1rem;
     border-radius: 10% 10% 10% 10%;
     background-color: cornflowerblue;
     color: white;
-    font-size: 75%;
+    font-size: 65%;
 }
 
 
@@ -57,35 +59,46 @@ nav {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
+    background-color: #f0f0f0;
+}
+
+.card {
+    background-color: #cbcaca; 
 }
 
 .super {
     grid-column: 1;
     grid-row: 1;
+    background-color: white;
 } 
 .less {
     grid-column: 2;
     grid-row: 1;
+    background-color: white;
 }
 .impossible {
     grid-column: 1;
     grid-row: 2;
+    background-color: white;
 }
 .easy {
     grid-column: 2;
     grid-row: 2;
+    background-color: white;
 }
 .ad {
     grid-column: 1;
     grid-row: 3;
+    background-color: white;
 }
 .money {
     grid-column: 2;
     grid-row: 3;
+    background-color: white;
 } 
 .seven {
     grid-column: 3;
-    grid-row: 1;
+    grid-row: 1/3;
 }
 .eight {
     grid-column: 3;
