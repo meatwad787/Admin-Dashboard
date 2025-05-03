@@ -13,7 +13,7 @@
 }
 
 .nav-item {
-    padding: 10px;
+    padding: 5px 10% 5% 10%;
 }
 
 nav {
@@ -24,6 +24,7 @@ nav {
 }
 
 .dashboard {
+    padding-top: 20%;
     padding-bottom: 20%;
 } 
 .communities {
@@ -39,6 +40,7 @@ nav {
     grid-template-rows: repeat(2, 1fr);
     background-color: white;
     padding: 20px;
+    box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.3);
 }
 .input {
     display: flex;
@@ -110,7 +112,7 @@ input {
     box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.3);
     margin:  2%;
     padding: 10px;
-    /* border-radius: 10% 12% 15% 15%; */
+    /* border-radius: 10% 12% 15% 15%; */  
 }
 
 .super {
