@@ -74,11 +74,7 @@ input {
 } .big-name-text {
     margin-bottom: 1rem;
 }
-.bold {
-    display: flex;
-    align-items: end;
-    font-weight: bold;
-}
+
 
 .header-child-btn {
     align-self: end;
