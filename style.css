@@ -158,5 +158,8 @@ input {
     margin-bottom: 50px;
 }.small-para {
     font-size: 20px;
+    margin-bottom: 10px;
+}.titles {
+    font-size: small;
     margin-bottom: 0px;
 }
