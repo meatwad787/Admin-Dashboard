@@ -1,2 +1,2 @@
 # Admin-Dashboard
-An admin dashboard project with an intended heavy reliance on css grid. 
+Just recreating a webpage using all of the html and css I've learned so far.
