@@ -1,6 +1,6 @@
 .wrapper {
     font-family: 'Roboto', sans-serif;
-   font-size: x-large;
+   font-size: large;
    background-color: #cbcbcb;
 }
 
@@ -134,14 +134,18 @@ input {
 .card {
     box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.3);
     margin:  2%;
-    padding: 10px;
+    padding: 20px;
     border-radius: 1rem;  
     /* height: 300px; */
     background-color: white;
 }
 
+.seven {
+    margin-bottom: 50px;
+}
+
 .small-icons {
-    height: 2rem;
+    height: 1.5rem;
 }
 
 .icons {
@@ -149,4 +153,10 @@ input {
     flex-direction: row;
     gap: 20px;
     justify-content: end;
+}
+.para {
+    margin-bottom: 50px;
+}.small-para {
+    font-size: 20px;
+    margin-bottom: 0px;
 }
