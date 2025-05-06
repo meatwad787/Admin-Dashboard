@@ -151,7 +151,7 @@ input {
 }
 
 .super,.impossible, .less, .ad, .money, .easy, .ad {
-    border-left: 10px solid #ff4040;
+    border-left: 10px solid #ff0000af;
 }
 
 
