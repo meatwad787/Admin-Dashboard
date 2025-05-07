@@ -164,6 +164,25 @@ input {
 
 .eight {
     /* width: 80%; */
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1.6fr;
+} 
+
+.prof-one, .prof-two, .prof-three, .prof-four {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 1.6fr;
+    margin-bottom: 10px;
+    column-gap: 10px;
+} .discript {
+    font-size: 17px;
+    margin-bottom: 10px;
+} .ats {
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: -1px;
 }
 
 .small-icons {
@@ -186,7 +205,8 @@ input {
     margin-bottom: 0px;
 }
 img {
-    height: 0%;
-    width: 10%;
+    height: 2.5rem;
+    width: 2.5rem;
     border-radius: 2rem;
-}
+    grid-row: 1/3;
+} 
